@@ -1,0 +1,22 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #ada9a9;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 0px 0px 35px;
+}
+.input {
+  width: 50%;
+  background-color: transparent;
+  border: 0px solid black;
+  padding: 10px;
+  font-size: 18px;
+}
+.btn {
+  padding: 15px;
+  font-weight: 500;
+  background-color: #e12c2c;
+  color: white;
+  border: 0px solid black;
+}
