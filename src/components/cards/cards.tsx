@@ -23,7 +23,15 @@ export const Cards = ({ className }: CardsProps) => {
                     poster_path: '../public/img/poster.jpg',
                 }}
             />
-            <Card />
+            <Card
+                movie={{
+                    id: '321',
+                    overview: 'ghxgfhzfh',
+                    relase_date: '22222',
+                    title: 'dgd',
+                    vote_average: 8,
+                }}
+            />
             <Card />
             <Card />
             <Card />
