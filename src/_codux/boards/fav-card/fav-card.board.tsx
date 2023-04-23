@@ -6,7 +6,7 @@ export default createBoard({
     Board: () => (
         <FavCard
             movie={{
-                id: '12',
+                id: 12,
                 overview: 'ghjkk',
                 relase_date: '2000',
                 title: 'wert',

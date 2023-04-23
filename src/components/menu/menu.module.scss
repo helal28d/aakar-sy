@@ -8,12 +8,14 @@
   flex-direction: column;
   gap: 20px;
   border: 0px solid #938f8f;
+  text-align: start;
 }
 .logo {
   display: flex;
   height: 50px;
   align-items: center;
   width: auto;
+  cursor: pointer;
 }
 .logoimg {
   width: 50px;
@@ -46,4 +48,5 @@
   padding: 1px;
 }
 .listItem {
+  cursor: pointer;
 }
