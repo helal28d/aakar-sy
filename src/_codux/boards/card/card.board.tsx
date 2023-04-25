@@ -3,14 +3,16 @@ import { Card } from '../../../components/card/card';
 
 export default createBoard({
     name: 'Card',
-    Board: () => <Card
+    Board: () => (
+        <Card
             movie={{
-                id: 123,
-                overview:
-                    'desc dzfhgjgmghk hxghjxfgjxfgjfchfhfh cghfghfh ghgfhfgh fhhdfhdhgjjjfghgjfgjfgj gjgjgjhjhjghjghjhggjhjghjghjgjfgfdghdfhjcj xchfhfhdfh',
-                relase_date: '2000',
-                title: 'Avatar',
-                vote_average: 7,
                 poster_path: '../public/img/poster.jpg',
-            }} />,
+                vote_average: 3,
+                title: 'lord',
+                relase_date: '2000',
+                overview: 'sdfghjklpoiuytrewq',
+                id: 55,
+            }}
+        />
+    ),
 });
