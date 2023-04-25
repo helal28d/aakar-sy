@@ -22,7 +22,7 @@ export const Card = ({ className, movie }: CardProps) => {
     const { dispatch } = useContext(FavoriteContext);
     return (
         <div className={classNames(styles.root, className)}>
-            <img src={movie.poster_path} className={styles.img} />
+            <img className={styles.img} src={movie.poster_path} />
             <div className={styles.detail}>
                 <h1>{movie.title}</h1>
                 <span>{movie.vote_average.toFixed(1)}</span>
