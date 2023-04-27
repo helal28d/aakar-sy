@@ -22,7 +22,7 @@ export const FavCard = ({ className, movie }: FavCardProps) => {
     const {dispatch}=useContext(FavoriteContext);
     return (
         <div className={classNames(styles.root, className)}>
-            <img src={movie.poster_path} className={styles.favImg} />
+            <img src={`http://image.tmdb.org/t/p/w500/${movie.poster_path}` }className={styles.favImg} />
             <div className={styles.detail}>
                 <h1 className={styles.title}>{movie.title}</h1>
                 <span>{movie.vote_average}</span>
